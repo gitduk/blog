@@ -1,0 +1,51 @@
+baseURL = "https://blog.wukaige.com"
+languageCode = "en-us"
+theme = "nightfall"
+summaryLength = 2
+# googleAnalytics = "UA-1234-5"
+
+[params]
+user = "mail"
+hostname = "wukaige.com"
+published = true
+readingTime = true
+sitedescription = 'Your website description'
+
+[params.author]
+name = "Mr Wu"
+email = "email@wukaige.com"
+
+[params.styles]
+color = "green"
+
+[[params.social]]
+key = 0
+name = "twitter"
+url = "https://x.com/wukaigee"
+icon = "fa-brands fa-square-x-twitter"
+
+[[params.social]]
+key = 1
+name = "github"
+url = "https://github.com/gitduk"
+icon = "fa-brands fa-github"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:email@wukaige.com"
+icon = "fa-solid fa-envelope"
+
+[menu]
+[[menu.header]]
+name = "posts"
+weight = 0
+url = "/posts"
+
+[[menu.header]]
+name = "about"
+weight = 0
+url = "/about"
+

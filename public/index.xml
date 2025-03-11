@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>email@wukaige.com (Mr Wu)</managingEditor>
+    <webMaster>email@wukaige.com (Mr Wu)</webMaster>
+    <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><author>email@wukaige.com (Mr Wu)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&amp;ldquo;用代码重构数字世界，用脚步丈量真实人间&amp;rdquo;——正在寻找技术与生活的黄金分割点，期待与你在开源项目或山野小径相遇。</description>
+    </item>
+    <item>
+      <title>Python 异步更新 mysql 数据库 (asyncio &#43; aiomysql)</title>
+      <link>http://localhost:1313/posts/python-%E5%BC%82%E6%AD%A5%E6%9B%B4%E6%96%B0-mysql-%E6%95%B0%E6%8D%AE%E5%BA%93-asyncio-&#43;-aiomysql/</link>
+      <pubDate>Thu, 03 Aug 2023 15:45:13 +0800</pubDate><author>email@wukaige.com (Mr Wu)</author>
+      <guid>http://localhost:1313/posts/python-%E5%BC%82%E6%AD%A5%E6%9B%B4%E6%96%B0-mysql-%E6%95%B0%E6%8D%AE%E5%BA%93-asyncio-&#43;-aiomysql/</guid>
+      <description>数据库有一亿数据，需要写一个垃圾脚本更新某个字段，需要 6+ 小时，太慢了！！！</description>
+    </item>
+  </channel>
+</rss>
