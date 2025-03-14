@@ -45,6 +45,11 @@ weight = 0
 url = "/posts"
 
 [[menu.header]]
+name = "tags"
+weight = 0
+url = "/tags/"
+
+[[menu.header]]
 name = "about"
 weight = 0
 url = "/about"
