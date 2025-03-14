@@ -3,10 +3,8 @@ title = 'TiDB Lightning 基础使用'
 date = 2023-11-23T11:42:26+08:00
 draft = false
 tags = ['TiDB']
+summary = '已经用 [Dumpling](https://docs.pingcap.com/tidb/stable/dumpling-overview) 将数据从上游数据库导出。'
 +++
-
-> 前提是已经用 [Dumpling](https://docs.pingcap.com/tidb/stable/dumpling-overview) 将数据从上游数据库导出。
-> 
 
 ## 创建配置文件 tidb-lightning.toml
 

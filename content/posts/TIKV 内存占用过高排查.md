@@ -3,12 +3,8 @@ title = 'TIKV 内存占用过高排查'
 date = 2023-07-05T11:45:34+08:00
 draft = false
 tags = ['TiDB']
+summary = 'tidb 集群（tidb-cluster）的 tikv 节点，占用内存高达 30/50 G，内存不够用。'
 +++
-
-# TIKV 内存占用过高排查
-
-> tidb 集群（tidb-cluster）的 tikv 节点，占用内存高达 30/50 G，内存不够用。
-> 
 
 ## 排查
 
