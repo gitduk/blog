@@ -3,7 +3,7 @@ title = 'Redhat 安装显卡驱动'
 date = '2023-10-13 17:29:48'
 categories = []
 tags = ['redhat']
-draft = true
+draft = false
 summary = '公司购买了一张 4090 显卡，需要安装到服务器上。服务器 OS 版本：redhat9'
 +++
 

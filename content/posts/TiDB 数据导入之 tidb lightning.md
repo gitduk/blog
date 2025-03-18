@@ -3,7 +3,7 @@ title = 'TiDB 数据导入之 Tidb Lightning'
 date = '2023-07-17 17:40:40'
 categories = []
 tags = ['TiDB']
-draft = true
+draft = false
 summary = 'TiDB Lightning 是用于从静态文件导入 TB 级数据到 TiDB 集群的工具，常用于 TiDB 集群的初始化数据导入。'
 +++
 

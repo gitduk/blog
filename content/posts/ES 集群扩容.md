@@ -3,7 +3,7 @@ title = 'ES 集群扩容'
 date = '2025-03-18 17:37:38'
 categories = []
 tags = ['Es']
-draft = true
+draft = false
 summary = '想通过增加 ES 节点达到提高 ES 吞吐量的目的。'
 +++
 

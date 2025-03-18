@@ -3,7 +3,7 @@ title = 'Frp + Nginx 实现不同子域名访问同一主机不同服务'
 date = '2023-07-04 17:34:32'
 categories = []
 tags = ['alist', 'frp', 'nginx']
-draft = true
+draft = false
 summary = ''
 +++
 

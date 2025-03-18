@@ -3,7 +3,7 @@ title = 'Linux 双网卡做 Bond0'
 date = '2023-07-11 17:31:32'
 categories = []
 tags = ['linux']
-draft = true
+draft = false
 summary = '为了提供网络的高可用性，我们可能需要将多块网卡绑定成一块虚拟网卡对外提供服务，这样即使其中的一块物理网卡出现故障，也不会导致连接中断。'
 +++
 

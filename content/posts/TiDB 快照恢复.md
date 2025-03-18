@@ -3,7 +3,7 @@ title = 'TiDB 快照恢复'
 date = '2023-07-05 17:24:48'
 categories = []
 tags = ['TiDB']
-draft = true
+draft = false
 summary = '公司同事误操作，把数据表清空。'
 +++
 

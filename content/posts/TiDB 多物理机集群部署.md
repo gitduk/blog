@@ -3,7 +3,7 @@ title = 'TiDB 多物理机集群部署'
 date = '2023-07-10 17:27:06'
 categories = []
 tags = ['TiDB']
-draft = true
+draft = false
 summary = ''
 +++
 

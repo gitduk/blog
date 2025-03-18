@@ -3,7 +3,7 @@ title = 'TiDB 错误排查'
 date = '2023-10-23 17:21:43'
 categories = []
 tags = ['TiDB']
-draft = true
+draft = false
 summary = '使用 tidb 过程中出现的错误记录'
 +++
 

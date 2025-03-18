@@ -3,7 +3,7 @@ title = 'ES 集群缩容'
 date = '2023-11-24 17:36:05'
 categories = []
 tags = ['Es']
-draft = true
+draft = false
 summary = '想通过增加 ES 节点达到提高 ES 吞吐量的目的，但是发现效果并不好。'
 +++
 

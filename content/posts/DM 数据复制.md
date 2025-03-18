@@ -3,7 +3,7 @@ title = 'DM 数据复制'
 date = '2023-07-10 17:43:57'
 categories = []
 tags = ['Es']
-draft = true
+draft = false
 summary = 'TiDB Data Migration (DM) 是一款便捷的数据迁移工具，支持从与 MySQL 协议兼容的数据库（MySQL、MariaDB、Aurora MySQL）到 TiDB 的全量数据迁移和增量数据同步。使用 DM 工具有利于简化数据迁移过程，降低数据迁移运维成本。'
 +++
 

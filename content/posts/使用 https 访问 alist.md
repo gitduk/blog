@@ -3,7 +3,7 @@ title = '使用 Https 访问 Alist'
 date = '2023-07-17 17:16:22'
 categories = []
 tags = ['alist']
-draft = true
+draft = false
 summary = '通过 http 访问 alist，地址栏那个感叹号看起来有点丑。'
 +++
 

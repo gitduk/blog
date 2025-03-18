@@ -3,7 +3,7 @@ title = 'ES 索引备份'
 date = '2024-03-12 17:38:50'
 categories = []
 tags = ['Es']
-draft = true
+draft = false
 summary = '服务器空间不够，要买几个硬盘重组 raid0，需要把 ES 数据提前导出。'
 +++
 

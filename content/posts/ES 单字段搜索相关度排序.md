@@ -3,7 +3,7 @@ title = 'ES 单字段搜索相关度排序'
 date = '2024-03-22 17:43:08'
 categories = []
 tags = ['Es']
-draft = true
+draft = false
 summary = '使用 Es 搜索，发现搜索结果关键词命中数 3 的文档排在关键词命中数 20 的前面，想让 Es 搜索结果安装关键词命中数排序。'
 +++
 
