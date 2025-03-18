@@ -2,6 +2,7 @@
 title = 'Nginx 代理 openai api'
 date = 2023-07-04T15:45:13+08:00
 draft = false
+summary = 'Ng 反代 openai api'
 +++
 
 ## 安装 Nginx
