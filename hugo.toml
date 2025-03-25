@@ -1,56 +1,96 @@
+#############
+### basic ###
+#############
+
 baseURL = "https://blog.wukaige.com"
 languageCode = "en-us"
-theme = "nightfall"
-summaryLength = 2
+theme = "typo"
+
+title = "wukaige's blog"
+license = "MIT"
+enableRobotsTXT = true
 # googleAnalytics = "UA-1234-5"
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
+##################
+### taxonomies ###
+##################
+
+[taxonomies]
+tag = 'tags'
+
+###############
+### outputs ###
+###############
+
+[outputs]
+home = ["HTML", "RSS"]
+
+##############
+### params ###
+##############
+
 [params]
-user = "mail"
-hostname = "wukaige.com"
-published = true
-readingTime = true
-sitedescription = 'Your website description'
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 7
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Footer Customization
+# showFooter = true
+# footerContent = "Your **custom** md `footer`"
 
 [params.author]
-name = "Mr Wu"
+name = "wukaige"
 email = "email@wukaige.com"
 
-[params.styles]
-color = "green"
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+# home = "~"
 
-[[params.social]]
-key = 0
-name = "twitter"
-url = "https://x.com/wukaigee"
-icon = "fa-brands fa-square-x-twitter"
-
-[[params.social]]
-key = 1
-name = "github"
-url = "https://github.com/gitduk"
-icon = "fa-brands fa-github"
-target = "_blank"
-aria = "GitHub Profile"
-
-[[params.social]]
-key = 2
-name = "email"
-url = "mailto:email@wukaige.com"
-icon = "fa-solid fa-envelope"
-
-[menu]
-[[menu.header]]
+# Main menu pages
+[[params.menu]]
 name = "posts"
-weight = 0
 url = "/posts"
 
-[[menu.header]]
+[[params.menu]]
 name = "tags"
-weight = 0
-url = "/tags/"
+url = "/tags"
 
-[[menu.header]]
+[[params.menu]]
 name = "about"
-weight = 0
 url = "/about"
+
+[[params.social]]
+name = "github"
+url = "https://www.github.com/gitduk/"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/wukaigee/"
+
+##############
+### markup ###
+##############
+
+[markup]
+[markup.highlight]
+style = 'algol'
+lineNos = true
+lineNumbersInTable = false
+noClasses = false
 

@@ -4,7 +4,7 @@ date = '2023-10-23 17:28:03'
 categories = []
 tags = ['TiDB']
 draft = false
-summary = ''
+summary = '单机部署 TiDB 集群步骤记录'
 +++
 
 ## 机器配置

@@ -4,7 +4,7 @@ date = '2023-07-10 17:27:06'
 categories = []
 tags = ['TiDB']
 draft = false
-summary = ''
+summary = '多物理机部署 TiDB 集群记录'
 +++
 
 ## 前情提要

@@ -1,0 +1,5 @@
+[[works]]
+name = "box_for_magisk"
+url = "https://github.com/gitduk/box_for_magisk"
+desc = "Magisk 模块实现 systemless 方式部署 sing-box 代理内核，提供透明流量拦截、自定义规则路由等高级网络功能，适用于 Android 系统级代理需求。模块化设计支持灵活配置，需搭配订阅或手动规则使用。"
+

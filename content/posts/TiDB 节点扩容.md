@@ -4,7 +4,7 @@ date = '2023-11-17 17:23:43'
 categories = []
 tags = ['TiDB']
 draft = false
-summary = ''
+summary = '扩容 TiDB 节点'
 +++
 
 ## 编写扩容配置文件

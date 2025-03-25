@@ -1,10 +1,10 @@
 +++
 title = 'TiDB 用户管理'
-date = '2025-03-18 17:22:52'
+date = '2023-06-27 17:22:52'
 categories = []
 tags = ['TiDB']
 draft = false
-summary = ''
+summary = 'TiDB 用户管理命令记录'
 +++
 
 ## 创建新用户
