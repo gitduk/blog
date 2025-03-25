@@ -90,7 +90,7 @@ url = "https://x.com/wukaigee/"
 [markup]
 [markup.highlight]
 style = 'algol'
-lineNos = true
+lineNos = false
 lineNumbersInTable = false
 noClasses = false
 
