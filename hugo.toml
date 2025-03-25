@@ -9,7 +9,7 @@ theme = "typo"
 title = "wukaige's blog"
 license = "MIT"
 enableRobotsTXT = true
-# googleAnalytics = "UA-1234-5"
+googleAnalytics = "G-PWF07XQSY3"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
