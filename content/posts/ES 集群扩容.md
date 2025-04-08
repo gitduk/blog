@@ -52,7 +52,7 @@ bin/elasticsearch --enrollment-token "eyJ2ZXIiOiI4LjUuMyIsImFkciI6WyIxOTIuMTY4Lj
 # the most important settings you may want to configure for a production cluster.
 #
 # Please consult the documentation for further information on configuration options:
-# <https://www.elastic.co/guide/en/elasticsearch/reference/index.html>
+# https://www.elastic.co/guide/en/elasticsearch/reference/index.html
 #
 # ---------------------------------- Cluster -----------------------------------
 #
@@ -184,7 +184,7 @@ transport.port: 9301
 # the most important settings you may want to configure for a production cluster.
 #
 # Please consult the documentation for further information on configuration options:
-# <https://www.elastic.co/guide/en/elasticsearch/reference/index.html>
+# https://www.elastic.co/guide/en/elasticsearch/reference/index.html
 #
 # ---------------------------------- Cluster -----------------------------------
 #

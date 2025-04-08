@@ -51,7 +51,7 @@ output {
       codec => rubydebug
     }
     elasticsearch {
-      hosts => [ '<http://127.0.0.1:9200>', '<http://127.0.0.1:9201>', '<http://127.0.0.1:9202>' ]
+      hosts => [ 'http://127.0.0.1:9200', 'http://127.0.0.1:9201', 'http://127.0.0.1:9202' ]
       index => 'index_test'
       action => 'create'
       document_id => '%{id}'
@@ -120,7 +120,7 @@ for i in {$1..$2}; do
         codec => rubydebug
       }
   	elasticsearch {
-        hosts => [ '<http://127.0.0.1:9200>', '<http://127.0.0.1:9201>', '<http://127.0.0.1:9202>' ]
+        hosts => [ 'http://127.0.0.1:9200', 'http://127.0.0.1:9201', 'http://127.0.0.1:9202' ]
         index => '$index_name'
         action => 'create'
         document_id => '%{id}'

@@ -49,7 +49,7 @@ sudo update-initramfs -u
 # " | sudo tee /etc/modprobe.d/blacklist-nvidia-nouveau.conf
 # sudo update-initramfs -u
 
-# 查看推荐的驱动版本, 到官网下载对应的显卡驱动 <https://www.nvidia.com/Download/index.aspx?lang=en-us>
+# 查看推荐的驱动版本, 到官网下载对应的显卡驱动 https://www.nvidia.com/Download/index.aspx?lang=en-us
 ubuntu-drivers devices
 
 # 文本模式

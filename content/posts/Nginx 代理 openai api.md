@@ -20,9 +20,9 @@ server {
     listen 8000;
 
     location /v1/ {
-        proxy_pass <https://api.openai.com/v1/>; 	# OpenAI API URL
-        proxy_ssl_server_name on; 				# 避免出现反代https域名出现502错误
-        proxy_buffering off; 					# 关闭缓存实现打字机效果
+        proxy_pass https://api.openai.com/v1/;  # OpenAI API URL
+        proxy_ssl_server_name on;               # 避免出现反代https域名出现502错误
+        proxy_buffering off;                    # 关闭缓存实现打字机效果
     }
 }
 ```

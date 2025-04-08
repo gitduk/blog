@@ -57,7 +57,7 @@ sudo subscription-manager repos --enable codeready-builder-for-rhel-9-$(uname -i
 安装 epel-release
 
 ```bash
-sudo dnf install <https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm>
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 sudo dnf makecache
 
 ```
@@ -72,7 +72,7 @@ sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r) gcc make dk
 添加 NVIDIA 官方的储存库
 
 ```bash
-sudo dnf config-manager --add-repo <http://developer.download.nvidia.com/compute/cuda/repos/rhel9/$>(uname -i)/cuda-rhel9.repo
+sudo dnf config-manager --add-repo http://developer.download.nvidia.com/compute/cuda/repos/rhel9/$(uname -i)/cuda-rhel9.repo
 sudo dnf makecache
 
 ```

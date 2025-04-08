@@ -17,7 +17,7 @@ summary = '单机部署 TiDB 集群步骤记录'
 
 ```bash
 # 安装 tiup 命令
-curl --proto '=https' --tlsv1.2 -sSf <https://tiup-mirrors.pingcap.com/install.sh> | sh
+curl --proto '=https' --tlsv1.2 -sSf https://tiup-mirrors.pingcap.com/install.sh | sh
 
 # 升级 cluster 组件
 tiup update --self && tiup update cluster
@@ -31,10 +31,10 @@ tiup --binary cluster
 <u>topo.yaml</u>
 
 ```yaml
-# 拓扑文件配置: <https://docs.pingcap.com/zh/tidb/stable/tiup-cluster-topology-reference>
-# tidb 配置详情: <https://docs.pingcap.com/zh/tidb/stable/tidb-configuration-file>
-# tikv 配置详情: <https://docs.pingcap.com/zh/tidb/stable/tikv-configuration-file>
-# pd 配置详情: <https://docs.pingcap.com/zh/tidb/stable/pd-configuration-file>
+# 拓扑文件配置: https://docs.pingcap.com/zh/tidb/stable/tiup-cluster-topology-reference
+# tidb 配置详情: https://docs.pingcap.com/zh/tidb/stable/tidb-configuration-file
+# tikv 配置详情: https://docs.pingcap.com/zh/tidb/stable/tikv-configuration-file
+# pd 配置详情: https://docs.pingcap.com/zh/tidb/stable/pd-configuration-file
 
 global:
   user: "tidb"
