@@ -43,7 +43,7 @@ PUT /_snapshot/snapshot_repo/snapshot_name
 
 ## 从 snapshot 恢复索引
 
-查看 snapshot repo 里面有哪些索引
+查看 snapshot repo 状态
 
 ```
 GET /_snapshot/snapshot_repo/snapshot_name/_all?pretty

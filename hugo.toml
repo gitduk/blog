@@ -3,6 +3,7 @@
 #############
 
 baseURL = "https://blog.wukaige.com"
+timeZone = "Asia/Shanghai"
 languageCode = "en-us"
 theme = "typo"
 
@@ -93,4 +94,3 @@ style = 'algol'
 lineNos = false
 lineNumbersInTable = false
 noClasses = false
-
