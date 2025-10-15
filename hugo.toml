@@ -9,10 +9,18 @@ theme = "typo"
 
 title = "wukaige's blog"
 license = "MIT"
+enableGitInfo = true
 enableRobotsTXT = true
 googleAnalytics = "G-PWF07XQSY3"
 
 ignoreLogs = ['warning-goldmark-raw-html']
+
+###################
+### frontmatter ###
+###################
+
+[frontmatter]
+lastmod = [":git", "lastmod", "date", "publishDate"]
 
 ##################
 ### taxonomies ###
