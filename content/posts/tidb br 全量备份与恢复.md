@@ -4,7 +4,7 @@ date = '2025-09-17 16:57:06'
 lastmodified = ''
 categories = []
 tags = []
-draft = true
+draft = false
 summary = '使用 tiup br 命令备份全库'
 +++
 
