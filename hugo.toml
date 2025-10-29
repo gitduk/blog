@@ -15,30 +15,17 @@ googleAnalytics = "G-PWF07XQSY3"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
-###################
-### frontmatter ###
-###################
-
 [frontmatter]
 lastmod = [":git", "lastmod", "date", "publishDate"]
-
-##################
-### taxonomies ###
-##################
 
 [taxonomies]
 tag = 'tags'
 
-###############
-### outputs ###
-###############
+[minify]
+minifyOutput = true
 
 [outputs]
 home = ["HTML", "RSS"]
-
-##############
-### params ###
-##############
 
 [params]
 # Meta description
@@ -91,10 +78,6 @@ url = "https://www.github.com/gitduk/"
 [[params.social]]
 name = "x"
 url = "https://x.com/wukaigee/"
-
-##############
-### markup ###
-##############
 
 [markup]
 [markup.highlight]
