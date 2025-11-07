@@ -11,3 +11,7 @@ new post:
 edit:
   $EDITOR "$(find content/posts -maxdepth 1 -type f | fzf)"
 
+push commit:
+  git add .
+  git commit -m '{{commit}}'
+  git push
