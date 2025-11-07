@@ -96,4 +96,3 @@ nvidia-smi
 ### 参考链接
 
 - https://linuxhint.com/install-nvidia-drivers-rhel-9/
-
