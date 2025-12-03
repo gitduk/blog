@@ -1,6 +1,6 @@
 +++
 title = "Shell 重定向操作符：<, <<, <<<, < <() 的区别"
-date = 2024-11-24T10:30:00+08:00
+date = 2025-12-02T10:30:00+08:00
 draft = false
 tags = ["Shell", "Bash", "Linux", "重定向"]
 categories = []
